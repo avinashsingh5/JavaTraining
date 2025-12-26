@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class student {
-    string name;
+    String name;
     int age;
     int regno;
 
@@ -20,6 +20,8 @@ public class student {
         s2.name = "Rohan";
         s2.age = 23;
         s2.regno = 12215936;
+
+        System.out.println(s2.name+ " is "+s2.age+" and his reg no is "+s2.regno);
 
     }
 }
