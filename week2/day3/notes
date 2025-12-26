@@ -1,0 +1,23 @@
+conversion of data tupes form one to another is called typecasting
+
+it is of 2 types :- primitive and non primitive
+
+1.primitive - the conversion of one primitve data type into another primitive data type 
+    types:- 
+        a :- widening[Implicit typecasting](The conversion of smaller to bigger)
+        b :- Narrowing[Explicit typecasting](the converion of bigger dataype to smaller datatype);
+
+2.Non primitive:- the conversion of one non primitive datatype into another non primitive datatype is known
+as non primitive typecasting 
+
+    types:-
+    a :- upcasting ()
+    b :- downcasting()
+
+
+    flow:-
+    byte->short->int->long->float->double
+    char->int->long->float->double
+
+
+During narrowing data loss can happen
