@@ -1,0 +1,72 @@
+Global Members :-
+
+1. Static Members
+    a) static variable
+    b) static method
+    c) static block or static intializer block
+
+2. Non Satitic members 
+    a) Non-static variable
+    b) Non-static static method
+    c)non-static bock Instance intilizer bloack
+    d)constructor   
+
+Golbal variable is assigned with default value of 0.
+it is of two types static and non static :-
+
+static vairable:
+    A variable which is declared inside class area or global area with static keyword is 
+    known as static variable .
+    It is a type of global variable.
+    We can use without intialization becuase it can store default values.
+
+    default values:
+    byte,short , int, long  = 0
+    foat , double = 0.0
+    char  = 
+    boolean = false
+    string = null
+
+    Write the difference between local and global variable
+
+    local var can be used inside block only 
+
+    Whenever we have static variable and local variable with same name if we use directly 
+    inside static context the high priority is given to the local variable to use 
+    static variable we have to consider class nam -> class name.var
+
+    for execution program jvm have some memory ares.
+    1.class static area :
+        Every class will have a dedicated memory to store all static memners is known as 
+        class static area.
+        The name of class Static area is as same as ClassName.
+        Every static context is directly poiting towards class static area.
+
+    2.Stack area :
+        It is used for executio.
+    3.heap area
+
+    Note: for execution jvm first call main method 
+
+    can we overload main method
+
+    how to create object ?
+     by using new keyword. 
+     it is unary operator.
+     with the help of new keyword we can create an numbers of object for one class.
+     it will retrun addresss of an object.
+     whenever we are using new keyword new object will be created.
+
+     how to use non static members inside staic context ?
+     -> with the help of object reference variable
+
+     write  a difference between static and non static variable 
+
+     static variable 
+        belongs to the class 
+        only one copy is created 
+        and it shared by all objects
+        
+    non static variable 
+        belongs to the obj 
+        seperate copy for each object
