@@ -70,3 +70,10 @@ static vairable:
     non static variable 
         belongs to the obj 
         seperate copy for each object
+
+
+    non static block:
+        static and non static blocks does not have access modifier, return type , name and formal
+        arguments.
+
+    

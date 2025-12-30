@@ -1,0 +1,48 @@
+non Static block - A block which is declared inside global area without static 
+keyword is known as non static bolck. It is also known as instance intiazer block 
+
+It gets executed whencer we  are cerating an object.
+
+static and non static blocks does not ahve access modifier , return type ,a name and formal 
+arguments
+
+
+constructor :- 
+    It is special type of non static member
+    bcz :
+    The name of constructor is same as ClassName.
+    It is similar to method but does nto have return type
+
+    Non static block and constructor runs every time obj 
+
+
+    write difference static and non static block?
+
+    -> static block runs once the class is loaded
+    ->non static block runs every time obj is made 
+
+    write difference between constructor and METHOD ?
+
+    ->constructor is used to intialize the value of an object and 
+    runs everytime for the object when it is creaeted
+
+    ->method performs specific operations and needs to be called expilictely
+
+
+    constructor chaining:
+    One Constructor is calling anothr constructor is called constructor chainging
+    how to achive 
+    using thihs() calling statement
+    using super calling statements
+
+    this():
+    it is a constructor calling statemt.
+    It is used to call constructor of same class.
+    If we have n numbers of constructor they we can use n-1 this calling statement.
+    If any constructor will have this() calling staement then that constructor does not have
+    preloaded instructions and instance initalizer block.
+
+    NOte: Constructor recursion is not possible because it will not create object.
+    If we try to achive constructor recurion so it will give compile time error.
+
+    

@@ -1,0 +1,210 @@
+
+JAVA PROGRAM EXECUTION FLOW (STATIC, NON-STATIC & CONSTRUCTOR)
+
+---
+
+1. OVERALL JAVA PROGRAM FLOW (HIGH LEVEL)
+
+When a Java program is executed, the flow is:
+
+1. JVM loads the class
+2. Static members execute
+3. main() method starts
+4. Object creation using new
+5. Non-static block executes
+6. Constructor executes
+7. Program ends
+
+---
+
+2. STEP-BY-STEP DETAILED FLOW
+
+STEP 1: CLASS LOADING
+
+* JVM loads the .class file into memory
+* Class Static Area (Method Area) is created
+* Static variables and static blocks are prepared
+
+---
+
+STEP 2: STATIC BLOCK EXECUTION
+
+* Static blocks execute immediately after class loading
+* They execute only once
+* They execute before main() method
+
+Syntax:
+static {
+// runs first
+}
+
+Uses:
+
+* Static variable initialization
+* Loading database drivers
+
+---
+
+STEP 3: MAIN() METHOD EXECUTION
+
+* JVM calls the main() method
+* Program execution starts from main()
+
+Syntax:
+public static void main(String[] args) {
+}
+
+---
+
+STEP 4: OBJECT CREATION (new)
+
+* When an object is created using new keyword
+
+Example:
+Test t = new Test();
+
+* Memory is allocated in heap memory
+
+---
+
+STEP 5: NON-STATIC BLOCK EXECUTION
+
+* Executes before constructor
+* Executes every time an object is created
+
+Syntax:
+{
+// instance block
+}
+
+---
+
+STEP 6: CONSTRUCTOR EXECUTION
+
+* Executes after non-static block
+* Initializes object data
+* Constructor name is same as class name
+
+Syntax:
+Test() {
+// constructor
+}
+
+---
+
+STEP 7: PROGRAM ENDS
+
+* After main() method completes execution
+* JVM terminates the program
+
+---
+
+3. COMPLETE EXAMPLE PROGRAM
+
+class FlowDemo {
+
+```
+static {
+    System.out.println("1. Static block");
+}
+
+{
+    System.out.println("3. Non-static block");
+}
+
+FlowDemo() {
+    System.out.println("4. Constructor");
+}
+
+public static void main(String[] args) {
+    System.out.println("2. Main method");
+
+    FlowDemo obj1 = new FlowDemo();
+    FlowDemo obj2 = new FlowDemo();
+}
+```
+
+}
+
+---
+
+4. OUTPUT
+
+5. Static block
+
+6. Main method
+
+7. Non-static block
+
+8. Constructor
+
+9. Non-static block
+
+10. Constructor
+
+---
+
+5. REASON FOR OUTPUT
+
+* Static block runs only once
+* main() runs only once
+* Non-static block and constructor run for every object
+
+---
+
+6. EXECUTION ORDER (VERY IMPORTANT)
+
+Class Load
+↓
+Static Block
+↓
+main()
+↓
+Object Creation
+↓
+Non-static Block
+↓
+Constructor
+
+---
+
+7. KEY DIFFERENCES
+
+Static Block:
+
+* Runs when class loads
+* Executes once
+* No name
+* No return type
+
+Non-Static Block:
+
+* Runs during object creation
+* Executes for every object
+* Executes before constructor
+* No name
+* No return type
+
+Constructor:
+
+* Runs during object creation
+* Executes for every object
+* Used to initialize object
+* Has same name as class
+* No return type
+
+---
+
+8. ONE-LINE VIVA ANSWER
+
+In Java, static blocks execute during class loading, main() starts execution, non-static blocks execute before the constructor during object creation, and constructors initialize the object.
+
+---
+
+If you want, I can also give:
+
+* Same notes in **handwritten-style**
+* **One-page revision sheet**
+* **Inheritance execution flow**
+
+Just tell me 👍
