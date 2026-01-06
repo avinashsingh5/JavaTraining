@@ -1,0 +1,30 @@
+flow of java program
+
+SIB → SIB → main() → static methods → IIB → constructor → non-static method
+
+
+why constructor recursion is not possible ?
+    because it cant create object properly.
+what is the use of constructor overloading?
+    to initialize objects with differnet parameters
+    
+write a difference between constructor overloading and method overloading ?
+    constructor overloading helps to initialize objects with different parameters
+    method overloading helps in performing differnt operations in different ways
+
+when we use  parameterized constructor?
+    when we use to initialize object with some values instead of the default one.
+
+what is a use of copy constructor?
+    to initialize object with same values of the object it is copied from 
+
+OOPS :
+    Object Oriented Programming
+    It is a design model or paradigm which help the programer to corelate real  world scenarios into Programming
+    world scenarios in the form of object.
+
+    Encapsulation
+    ->The binding or wrapping stattes and behavours of an object is known as encapsulaton.
+    ->we use it to achieve data hiding.
+    ->The process of avoiding direct access but providing controled acess is known as data hiding.
+    

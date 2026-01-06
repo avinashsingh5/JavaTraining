@@ -1,0 +1,36 @@
+Types of relationship in java :
+    1.HAS-A relationship 
+    2.IS-A relationship
+
+HAS-A relationship :
+    1.Aggregation
+        is a weak HAS-A relationship where the child object is created outside the parent class and can exist independently
+    2.Composition
+        is a strong HAS-A relationship where the parent class creates and owns the child object , and the child cannot exist independently.
+
+Inheritance :
+    It is also konwn as IS-A relationship
+    child class 
+
+
+super calling statement: 
+    1.super calling statement is a constructor calling statement it is used to call constructor 
+    of super class
+    2. It must be the first statement inside any constructor
+    3. If programmer has not written this calling statement then by default compiler will add
+    no argument super calling statement.
+    4. we cannot use this calling and super calling statement in same constructor
+    5. we can use only one super calling statement in one constructor
+
+
+    Inheritance: 
+
+    single level Inheritance: One sub class having only one super class
+    Multi level Inheritance: One sub class is having more than one super class at different level
+    hierarichal Inheritance: One super class is having more than one subclass at same level 
+    multiple Inheritance: one subclass is having morethan one super class at same level is known as multiple Inheritance
+        In java we can not achive multiple Inheritance with the help of class
+        because of diamond problem.
+        To achive multiple Inheritance in java we have to use interface
+
+    Hybrid Inheritance: combination of any two Inheritance is called Hybrid Inheritance.
