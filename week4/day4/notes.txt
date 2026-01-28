@@ -1,0 +1,45 @@
+Object class it is the supermost class for all java class 
+It is present inside java.lang package
+
+there are 11 non static methods of the object class 
+
+1.toString()
+2.hashCode()
+3.equals(object obj)
+4.finalize()
+5.getClass()
+6.clone()
+7.wait()
+8.wait(long l)
+9.wait(long l,int l)
+10.notify()
+11.notifyAll()
+
+1.  toString()
+    Return type: String
+    Used to return string representation(address) of an object
+    Called automatically when you print an object
+
+    why do we need to override toString method?
+    To print data of an object rather than printing adress of an object
+
+2.equals(Object obj)
+    Return type: boolean
+    Default implementation compares reference
+    the return type of equals method is boolean
+    it is used to compare adress of two object 
+
+    why do we need to override equals method?
+    To compare data of an object rather than adress of an object
+
+
+3. hashCode()
+    Return type: int
+    Generates a unique integer for each  object
+    Used by HashMap, HashSet
+
+
+
+
+
+

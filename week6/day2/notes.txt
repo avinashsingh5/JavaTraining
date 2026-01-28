@@ -1,0 +1,32 @@
+Method Refernces:
+    Method references is just a shortcut fora lambda that only calls an existing method.
+    If a lambda expression contains only one sttatement and that stament simply calls an existing method,
+    then a method refernce can be used instead of the lambdsa.
+    Method refernce owrks ionly when lambdas direclty calls one existing method.
+Syntax:
+    ClassName::methodName
+
+    eg:
+        I2 ref1 = (a,b) -> a+b;
+        System.out.println(ref1.add(10,20));
+        **instead of this we can sum Inteer.sum() method
+
+Stream:
+    Stream is a java 8 feature used to process collection data in functional way without using loops.
+    Stream was introduced in java 8
+    Stream does not store data
+    It works on collection data
+    Stream processes datat one by one
+    Stream does not change original collection
+
+Basic steram flow : collection -> stream -> Opeartion ->Result
+eg: List-> Stream() -> filte() -> forEach()
+
+Basic methods of stream:
+    stream()-> converts a collection into a stream so we can process data in fun ctional way..
+    filter()
+    map()
+    forEach()
+    collect()
+    sorted()
+    sorted(Comaparator)

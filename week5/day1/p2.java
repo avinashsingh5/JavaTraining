@@ -1,0 +1,1 @@
+//java program to handle null pointer exeception 

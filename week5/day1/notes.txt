@@ -1,0 +1,35 @@
+The problem that occurs during runtime due to which the flow of program get disturbed and program get terminated is known as exeception
+
+exeception hierachy:-
+    Throwable class is the main class of the exeception
+
+
+
+    Types of exeception handling mechanism:
+        1. try catch
+        2. try with multiple catch
+        3. try finally
+        4. try catch finally
+
+
+        Try:
+            what id does:
+            It contains code that might cause an error.
+
+            why it is useful:
+            To prevent your program from crashing if something goes wrong.
+
+
+        catch:
+            what it does:
+            It catches the error that happens in the try block and handles it.
+
+            why it is useful:
+            Instead of crashing your program can show a message or do something safe.
+
+        finally:
+            what id does:
+            It always runs-weather or not there was an error.
+
+            why it's useful:
+            To do cleanup work like closing files, releasing memory, etc.

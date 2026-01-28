@@ -1,0 +1,35 @@
+polymorphism:
+    An ability of an object to exhibit more than one form is known as polymorphism
+    one name but different behaviours .
+
+
+    types of polymorphism:
+    1. compile time polymorphism 
+        The binding happens during copile time is known as copile tiem polymorphism.
+        it is also known as static binding.
+        We can achive compile time polymorphism using 
+            method overloading
+            constructor overloading
+            variable shadowing
+                A sublass and super class is static variable or non static variable with smae is known as variable shadowing.
+                which variable to be called is decided during compile time based on reference variable type.
+            method shadowing
+                A subclass and super class is having static method with ssame name , same acess modifier, same return type and 
+                same formal arguments.
+                which method to be called is decided during copile time based on  reference variable type.
+
+
+    2. runtime polymorphism
+        the binding  happens during runtime is known as runtime polymorphism.
+        it is also known as dynamic binding
+        we can achive runtime polymorphism using method overriding. 
+            A sub class and super class is having non static method with same name , sme acess which method to be called is decided during 
+            runtime based on object creation.
+
+    Annotatino : extra validation provided by programmer.
+    @Override
+        :which means method is override from superClass.
+        if we are not giving same acess modifier , name, return type or formal arguments then 
+        it will give compile time error.
+        
+

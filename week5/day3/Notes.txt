@@ -1,0 +1,90 @@
+HashSet
+    It is an implementation class of set interface
+    It is present inside java.util.package
+    It was introduced in jdk 1.2
+    It does not follow sorting order
+    It does not allow duplicates 
+    It allows only null elments 
+    It is internally implemented using hashTable (Hashing mechanism)
+    It provides fast performence for add , remove and serach operation
+    it is used when uniqueness is required and order is not importnant
+
+
+LinkedHashSet
+    It is an implementation class of Set interface
+    It is present inside java.util.package
+    It was introduced in jdk 1.4
+    It follows insertion order
+    It does not allow duplicates
+    It allows only one null element
+    It is internally implemented using HashTable and LinkedList
+    It provides slightly slower performance than HashSet
+    It is used when uniqueness and insertion order are required
+ 
+
+
+TreeSet
+    It is an implementation class of Set interface
+    It is present inside java.util.package
+    It was introduced in jdk 1.2
+    It follows sorting order (Natural sorting order)
+    It does not allow duplicates
+    It does not allow null elements
+    It is internally implemented using Red-Black Tree
+    It provides slower performance compared to HashSet and LinkedHashSet
+    It is used when uniqueness and sorted order are required
+
+Map
+    It is an interface present in java.util.package
+    It was introduced in jdk 1.2
+    It stores data in the form of key and value pairs
+    It does not allow duplicate keys values can be duplicates
+    It allows duplicate values
+    It allows only one null key and multiple null values
+   Map does not comes under collection because in collection we store only object but in map we store objects in the form of key value pairs.
+   Map interface has 3 implementing classes such as Hashmap, TreeMap, LinkedHashMap.
+
+   put(Object key,Object value):
+    It is used to add entry inside map.
+    return type is object 
+    It will return previous value of key, if 
+    
+    remove(Object key)
+    containsKey(Object key)
+    
+
+HashMap
+    It is an implementation class of Map interface
+    It is present inside java.util.package
+    It was introduced in jdk 1.2
+    It does not follow any insertion or sorting order
+    It does not allow duplicate keys
+    It allows multiple null values and only one null key
+    It is internally implemented using HashTable (Hashing mechanism)
+    It provides fast performance for put, remove and search operations
+    It is used when fast access using keys is required and order is not important
+
+TreeMap
+    It is an implementation class of Map interface
+    It is present inside java.util.package
+    It was introduced in jdk 1.2
+    It follows sorting order based on keys
+    It does not allow duplicate keys
+    It does not allow null keys
+    It allows multiple null values
+    It is internally implemented using Red-Black Tree
+    It provides slower performance compared to HashMap
+    It is used when sorted order of keys is required
+
+
+LinkedHashMap
+    It is an implementation class of Map interface
+    It is present inside java.util.package
+    It was introduced in jdk 1.4
+    It stores data in the form of key and value pairs
+    It follows insertion order
+    It does not allow duplicate keys
+    It allows one null key and multiple null values
+    It is internally implemented using HashTable and Doubly LinkedList
+    It provides slightly slower performance than HashMap
+    It is used when fast access and insertion order of keys are required

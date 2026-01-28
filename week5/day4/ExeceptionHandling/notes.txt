@@ -1,0 +1,3 @@
+ Exception is an event that disrupts the normal flow of program . It is an object which is thrown at
+ runtime.
+
