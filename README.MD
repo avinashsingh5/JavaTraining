@@ -1,1 +1,1 @@
-git commit -m "Initial commit: Java basic programs upto week1"
+Contains Java programs and exercises completed during the Capgemini training sessions.
