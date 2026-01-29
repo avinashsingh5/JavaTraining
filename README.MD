@@ -1,1 +1,1 @@
-Contains Java programs and exercises completed during the Capgemini training sessions.
+Contains  programs and exercises completed during the Capgemini training sessions.
